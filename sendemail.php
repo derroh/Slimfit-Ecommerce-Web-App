@@ -2,7 +2,7 @@
 	header('Content-type: application/json');
 	$status = array(
 		'type'=>'success',
-		'message'=>'Thank you for contact us. As early as possible  we will contact you '
+		'message'=>'Thank you for contact us. As early as possible  we will contact you. Your time & questions are of the utmost importantce to us, stay connected. '
 	);
 
     $name       = @trim(stripslashes($_POST['name']));
